@@ -66,6 +66,7 @@ height: 50rem;
 }
 
 .profile-photo {
+    margin-bottom: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,11 +122,11 @@ height: 50rem;
 }
 
 .app-download:nth-child(1) {
-    background-image: url(); /*adiciona a img da apple aqui*/
+    background-image: url(/imgs/apple-button.png); /*adiciona a img da apple aqui*/
 }
 
 .app-download:nth-child(2) {
-    background-image: url(); /*adiciona a img do googleplay*/
+    background-image: url(/imgs/googleplay-button.png); /*adiciona a img do googleplay*/
 }
 
 /*O tal do media queries*/
